@@ -17,25 +17,23 @@ export default function Home() {
         src="/3geeks-logo.png"
         alt="3 Geeks Comics"
         style={{
-          width: "min(520px, 80vw)", // smaller than before, responsive
+          width: "min(420px, 70vw)",
           height: "auto",
-          marginBottom: 10, // closer text
+          marginBottom: 6,
         }}
       />
 
       <p
         style={{
-          fontSize: "clamp(26px, 4vw, 40px)", // bigger words, responsive
-          fontWeight: 700,
-          lineHeight: 1.1,
+          fontSize: "clamp(30px, 4.8vw, 52px)",
+          fontWeight: 800,
+          lineHeight: 1.05,
           margin: 0,
-          maxWidth: "min(900px, 92vw)",
+          maxWidth: "min(980px, 92vw)",
         }}
       >
-        Cause a fat man gotta have them funny books....and cookies!
+        Cause a fat man gotta have them funny books, and cookies!
       </p>
     </main>
   );
-}
-
 }
