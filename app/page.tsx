@@ -9,28 +9,33 @@ export default function Home() {
         justifyContent: "center",
         textAlign: "center",
         fontFamily: "system-ui, Arial",
-        padding: 20,
+        padding: 16,
+        overflow: "hidden",
       }}
     >
       <img
         src="/3geeks-logo.png"
         alt="3 Geeks Comics"
         style={{
-          maxWidth: "90%",
+          width: "min(520px, 80vw)", // smaller than before, responsive
           height: "auto",
-          marginBottom: 24,
+          marginBottom: 10, // closer text
         }}
       />
 
       <p
         style={{
-          fontSize: 20,
-          fontStyle: "italic",
-          maxWidth: 700,
+          fontSize: "clamp(26px, 4vw, 40px)", // bigger words, responsive
+          fontWeight: 700,
+          lineHeight: 1.1,
+          margin: 0,
+          maxWidth: "min(900px, 92vw)",
         }}
       >
         Cause a fat man gotta have them funny books, and cookies!
       </p>
     </main>
   );
+}
+
 }
