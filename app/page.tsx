@@ -32,7 +32,7 @@ export default function Home() {
           maxWidth: "min(900px, 92vw)",
         }}
       >
-        Cause a fat man gotta have them funny books, and cookies!
+        Cause a fat man gotta have them funny books....and cookies!
       </p>
     </main>
   );
